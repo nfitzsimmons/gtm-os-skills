@@ -4,7 +4,7 @@ The skills behind the operating system I use to run go-to-market.
 
 I'm a marketer who builds. Across demand gen and product marketing at Kolide, 1Password, and Keychain, I stopped treating AI as a chat box and built a personal operating system that runs the work with me. Context, voice, and workflows, all version-controlled, all firing through skills like the ones in this repo.
 
-I'm not publishing the OS. The point of these posts and this repo is to show you how to build your own. But the individual skills inside mine are useful on their own, so I'm giving them away here, one at a time. Star the repo and you'll catch each new one as it lands. The value isn't this first skill. It's what this becomes as it grows.
+Hopefully my posts and this repo will help you build your own AI OS. The individual skills inside mine are useful on their own, so I'm giving them away here, one at a time. Star the repo and you'll catch each new one as it lands. The value isn't this first skill. It's what this becomes as it grows.
 
 ## What a skill is
 
@@ -41,4 +41,4 @@ MIT. Take them, change them, ship them.
 
 ## Who built this
 
-Nick Fitzsimmons. Full-funnel marketer, former engineer. I write about building and running a GTM operating system on [LinkedIn](https://www.linkedin.com/in/nickfitzsimmons/).
+Nick Fitzsimmons. Full-funnel marketer, former engineer. I write about building and running an AI GTM operating system on [LinkedIn](https://www.linkedin.com/in/nickfitzsimmons/).
