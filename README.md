@@ -2,7 +2,7 @@
 
 The skills behind the operating system I use to run go-to-market.
 
-I'm a marketer who builds. Across demand gen and product marketing at Kolide, 1Password, and Keychain, I stopped treating AI as a chat box and built a personal operating system that runs the work with me. Context, voice, and workflows, all version-controlled, all firing through skills like the ones in this repo.
+I'm a marketer who builds. Across demand gen and product marketing at Kolide, 1Password, and Keychain, and now leading marketing at Origin, I stopped treating AI as a chat box and built a personal operating system that runs the work with me. Context, voice, and workflows, all version-controlled, all firing through skills like the ones in this repo.
 
 Hopefully my posts and this repo will help you build your own AI OS. The individual skills inside mine are useful on their own, so I'm giving them away here, one at a time. Star the repo and you'll catch each new one as it lands. The value isn't this first skill. It's what this becomes as it grows.
 
