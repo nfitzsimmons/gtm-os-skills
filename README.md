@@ -21,6 +21,7 @@ Every skill in here is one I actually use in real work. No filler, no content-ma
 | Skill | What it does |
 | --- | --- |
 | [trust-check](skills/trust-check) | Make an AI answer auditable instead of just plausible. Disambiguate before it runs, get a receipt for every claim, and a second opinion when the stakes are real. |
+| [advisory-council](skills/advisory-council) | Run a high-stakes decision through 5 advisors with clashing angles, anonymized peer review, and a chairman synthesis, instead of trusting one model's one answer. |
 
 More landing over time.
 
@@ -30,8 +31,10 @@ More landing over time.
 
 ```bash
 git clone https://github.com/nfitzsimmons/gtm-os-skills.git
-cp -r gtm-os-skills/skills/trust-check ~/.claude/skills/trust-check
+cp -r gtm-os-skills/skills/<skill-name> ~/.claude/skills/<skill-name>
 ```
+
+Some skills also ship a slash command (check the skill's own README) — those need one more file copied into `~/.claude/commands/`.
 
 **Claude.ai or ChatGPT projects.** Open the skill's `SKILL.md`, copy everything below the frontmatter, and paste it into your project's custom instructions. The skills are disciplines, not dependencies, so they work in any capable chat.
 
