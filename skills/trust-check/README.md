@@ -7,8 +7,8 @@ When you ask AI to pull a number from a document, synthesize research, or answer
 ## What it does
 
 1. **Disambiguate before executing.** Surfaces the words in your request whose interpretation would change the answer, and states the reading it's using, before it runs.
-2. **Receipts on every claim.** Cites the file and section each claim came from, flags anything it inferred rather than found, and names the one thing most worth double-checking.
-3. **Second opinion for high-stakes work.** For money, legal, brand, or anything you're about to automate, gets the output judged in fresh context or by a different model, adversarially.
+2. **Receipts on every claim.** Cites the file and section each claim came from, tags each one SOURCED, INFERRED, or UNVERIFIED, and names the one thing most worth double-checking. Two traps get called out. A doc describing a live page doesn't prove what the page says today, and a sourced market-size number can still fail a denominator test.
+3. **Second opinion for high-stakes work.** For money, legal, brand, or anything you're about to automate, gets the output judged in fresh context or by a different model, adversarially, and holds the judge to an output contract so an APPROVED can't wave through its own findings.
 
 Plus a method for building an "answer key" before you automate a task end to end.
 
@@ -23,7 +23,7 @@ cp -r gtm-os-skills/skills/trust-check ~/.claude/skills/trust-check
 
 It triggers on "verify this," "can I trust this," "give me receipts," "double-check this," or before you act on an extracted figure or claim.
 
-**Claude.ai or ChatGPT Projects.** Open `SKILL.md`, copy everything below the frontmatter, and paste it into your project's custom instructions. The three behaviors work the same in any chat — they're a discipline, not a dependency.
+**Claude.ai or ChatGPT Projects.** Open `SKILL.md`, copy everything below the frontmatter, and paste it into your project's custom instructions. The three behaviors work the same in any chat, because they're a discipline, not a dependency.
 
 ## When to use it
 
