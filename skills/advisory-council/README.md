@@ -8,9 +8,17 @@ Ask an AI one question and you get one answer, and you have no way to tell if it
 
 1. **Frames the question.** Pulls in whatever context makes the decision specific instead of generic, then writes a neutral framing so every advisor starts from the same facts.
 2. **Convenes 5 advisors, in parallel.** Contrarian (hunts for the fatal flaw), First-Principles Thinker (asks what you're actually trying to solve), Expansionist (finds the upside everyone's missing), Outsider (zero context, catches the curse of knowledge), Executor (only cares what you do Monday morning). Three built-in tensions, not five people trying to agree.
-3. **Anonymized peer review, in parallel.** Each advisor's response gets relabeled and shown to 5 reviewers blind to who said what. They rank the strongest response, name the biggest blind spot, and flag what all five missed. This is the step that makes it more than "ask 5 times" — reviewers judge on merit, not by deferring to a favorite persona.
-4. **Chairman synthesis.** De-anonymized, direct, and willing to overrule the majority if the lone dissenter's reasoning is strongest. Structured as: where the council agrees, where it clashes, blind spots peer review caught, the recommendation, and the one thing to do first.
-5. **Writes the record.** A self-contained HTML briefing plus a full markdown transcript (every advisor response, every peer review, the anonymization mapping revealed) to `council-decisions/`.
+3. **Anonymized peer review, in parallel.** Each advisor's response gets relabeled and shown to 5 reviewers blind to who said what. They rank the strongest response, name the biggest blind spot, and flag what all five missed. This is the step that makes it more than "ask 5 times," because reviewers judge on merit, not by deferring to a favorite persona.
+4. **Chairman synthesis.** De-anonymized, direct, and willing to overrule the majority if the lone dissenter's reasoning is strongest. Structured as where the council agrees, where it clashes, blind spots peer review caught, the recommendation, and the one thing to do first.
+5. **Writes a decision record before you decide.** Success criteria and kill criteria with thresholds and dates, a review checkpoint, and the strongest dissent quoted verbatim, so a later retro scores the call against what you expected instead of hindsight.
+6. **Writes the files.** A self-contained HTML briefing plus a full markdown transcript (every advisor response, every peer review, the anonymization mapping revealed) to `council-decisions/`.
+
+## Rosters and retro
+
+- **`buyer`.** Seat five of your own buyer personas (from a `personas.md` you write) and ask whether a deck, page, post, or email lands. Peer review flags any seat that invented a pain the persona file doesn't support.
+- **`practitioners`.** Five schools of marketing thought (positioning, brand science, behavioral economics, direct response, writing craft) with one designated dissenter, for marketing-leadership calls.
+- **`interviewer`.** Rehearse a 90-day plan or a hard answer against simulations of the people in your interview loop, built from their public writing. Rehearsal material only, never presented as what they said.
+- **Retro mode.** At the review date, `retro this decision` scores every criterion, every advisor's warning, and every assumption against what actually happened, and tells you whose lens proved right.
 
 ## Install
 
@@ -24,7 +32,7 @@ cp gtm-os-skills/skills/advisory-council/council.md ~/.claude/commands/council.m
 
 It triggers on "council this," "run the council," "pressure-test this," "stress-test this," or "I'm torn between," or invoke it directly with `/council <decision>`.
 
-**Claude.ai or ChatGPT Projects.** Open `SKILL.md`, copy everything below the frontmatter, and paste it into your project's custom instructions. Trigger it by asking for the council by name — the 5-advisor structure works the same in any chat, it just runs sequentially instead of through parallel sub-agents.
+**Claude.ai or ChatGPT Projects.** Open `SKILL.md`, copy everything below the frontmatter, and paste it into your project's custom instructions. If you want the rosters, upload the three files in `references/` to the project's knowledge too. Trigger it by asking for the council by name. The 5-advisor structure works the same in any chat, it just runs sequentially instead of through parallel sub-agents.
 
 ## When to use it
 
