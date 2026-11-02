@@ -83,7 +83,7 @@ The chairman is the main session agent (you), not a sub-agent. De-anonymize, rea
   - **Preserved dissent:** the strongest dissenting advisor's concern, quoted verbatim from their response, never summarized. If the council was unanimous, write that.
 
 ### Step 5: Write the report and transcript
-Create a `council-decisions/` folder at the project root if it doesn't exist. Write two files, slug from the decision (roster runs prefix the slug with the roster name, such as `buyer-<slug>-<date>`):
+Create a `council-decisions/` folder at the project root if it doesn't exist. Write two files, slug from the decision. Roster runs swap the `council-` prefix for the roster name (`buyer-`, `practitioners-`, `interviewer-`) and keep everything else the same.
 - `council-decisions/council-<slug>-<YYYY-MM-DD>.html` is a clean, self-contained single-file HTML briefing (inline CSS, system font stack, white background, subtle borders, soft accents). Put the question at the top and the chairman's verdict prominently. Then add a simple agree/clash visual showing where advisors aligned and diverged, collapsible sections for each advisor's full response (collapsed) and the peer-review highlights, and the decision record. Footer: date and what was counciled. Don't fabricate a date, read it from the environment.
 - `council-decisions/council-<slug>-<YYYY-MM-DD>.md` is the full transcript. It holds the original question, framed question, all 5 advisor responses, all 5 peer reviews (with the anonymization mapping revealed), and the full chairman synthesis with the decision record.
 

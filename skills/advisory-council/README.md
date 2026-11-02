@@ -32,7 +32,7 @@ cp gtm-os-skills/skills/advisory-council/council.md ~/.claude/commands/council.m
 
 It triggers on "council this," "run the council," "pressure-test this," "stress-test this," or "I'm torn between," or invoke it directly with `/council <decision>`.
 
-**Claude.ai or ChatGPT Projects.** Open `SKILL.md`, copy everything below the frontmatter, and paste it into your project's custom instructions. Trigger it by asking for the council by name. The 5-advisor structure works the same in any chat, it just runs sequentially instead of through parallel sub-agents.
+**Claude.ai or ChatGPT Projects.** Open `SKILL.md`, copy everything below the frontmatter, and paste it into your project's custom instructions. If you want the rosters, upload the three files in `references/` to the project's knowledge too. Trigger it by asking for the council by name. The 5-advisor structure works the same in any chat, it just runs sequentially instead of through parallel sub-agents.
 
 ## When to use it
 

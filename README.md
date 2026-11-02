@@ -39,7 +39,7 @@ cp -r gtm-os-skills/skills/* ~/.claude/skills/
 
 advisory-council also ships a `/council` slash command. Its README has the one extra copy step.
 
-**Claude.ai or ChatGPT projects.** Open the skill's `SKILL.md`, copy everything below the frontmatter, and paste it into your project's custom instructions. The skills are disciplines, not dependencies, so they work in any capable chat.
+**Claude.ai or ChatGPT projects.** Open the skill's `SKILL.md`, copy everything below the frontmatter, and paste it into your project's custom instructions. If a skill has a `references/` folder, upload those files to the project's knowledge too. The skills are disciplines, not dependencies, so they work in any capable chat.
 
 ## Changelog
 

@@ -68,7 +68,7 @@ Close every run with one call, and mean it.
 - **SPAR.** Clean but hollow, with a salvageable core. Run the sparring step. Do not polish first.
 - **KILL.** No idea, no angle, nothing only this author could say, and sparring surfaced nothing. Say so directly. Don't pretend a rewrite of the words will save it. This verdict is the point of the skill, so use it when it's true.
 
-**Don't re-ask what's been answered.** If the author was already asked for the non-copyable input and has none to add, decide on the Share Test and craft as in the relay exception. That means SHIP, or REWORK with the miss named. SPAR only when the questions were never asked.
+**Don't re-ask what's been answered.** This applies when Onlyness is borderline, meaning there's a real idea but it could be more personal. If the author was already asked for the non-copyable input and has none to add, decide on the Share Test and craft as in the relay exception. That means SHIP, or REWORK with the miss named. SPAR only when the questions were never asked. A draft with no idea at all is still a KILL, asked or not.
 
 **Name the locks.** When the gate passes, list the sentences any later editing pass must keep word for word (copied exactly from the draft). These are usually the lines that carry the onlyness. Editors and AI polish passes love to smooth exactly those lines into something generic, so check the final against them.
 

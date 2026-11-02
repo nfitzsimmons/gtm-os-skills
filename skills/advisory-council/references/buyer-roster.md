@@ -52,7 +52,7 @@ Ground every reaction in your seat block. If you find yourself inventing a pain,
 
 ## Peer review prompt (one per reviewer, five in parallel)
 
-Anonymize A to E with a non-obvious mapping. Open with: "each response reveals its own seat through its content, so judge the reasoning rather than the role." Under 200 words each:
+Anonymize A to E with a non-obvious mapping. Give each reviewer the five seat blocks and the artifact alongside the responses, so it can check what each seat invented. Open with: "each response reveals its own seat through its content, so judge the reasoning rather than the role." Under 200 words each:
 
 1. Which response is most faithful to a real buyer in that seat, and why?
 2. Which response invented pain, objections, or facts not grounded in the persona file or the artifact? Quote the line.

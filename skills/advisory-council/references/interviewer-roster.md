@@ -32,7 +32,7 @@ The material:
 [material verbatim, plus the specific question asked]
 ---
 
-Return, in this order, no preamble, 300 to 600 words:
+Start your response with this exact line: "Simulation of [name], built from public sources. Not their words." Then return, in this order, 300 to 600 words:
 1. Where you lean in, and the specific line that did it.
 2. Where you stop believing, sentence by sentence where it matters.
 3. The two questions you would ask out loud next, worded as you would say them.
@@ -43,7 +43,7 @@ Ground every reaction in your seat block. If you find yourself inventing a posit
 
 ## Peer review prompt (one per reviewer, five in parallel)
 
-Anonymize A to E with a non-obvious mapping. Under 200 words each:
+Anonymize A to E with a non-obvious mapping, and strip the name from each simulation label so the seat stays hidden. Give each reviewer the five seat blocks (with their quoted sources) and the material, alongside the responses, so it can check claims against the record. Under 200 words each:
 
 1. Which response sounds most like the real person, judged against their known public positions?
 2. Which response put words in the person's mouth that nothing in their record supports? Quote the line.
