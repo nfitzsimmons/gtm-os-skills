@@ -23,6 +23,7 @@ Every skill in here is one I actually use in real work. No filler, no content-ma
 | 01 | [trust-check](skills/trust-check) | Make an AI answer auditable instead of just plausible. Disambiguate before it runs, get a receipt for every claim, and a second opinion when the stakes are real. |
 | 02 | [advisory-council](skills/advisory-council) | Run a high-stakes decision through 5 advisors with clashing angles, anonymized peer review, and a chairman verdict, plus a decision record you can score later. |
 | 03 | [taste-check](skills/taste-check) | Judge whether a draft deserves to exist before anyone polishes it. Two gates, a sparring step instead of a rewrite, and a verdict that can say KILL. |
+| 04 | [copy-grader](skills/copy-grader) | Score copy against a weighted rubric of master-copywriter principles, with the quoted line behind every score, then rewrite toward 100 without flattening the voice. |
 
 More landing over time.
 
@@ -42,6 +43,9 @@ advisory-council also ships a `/council` slash command. Its README has the one e
 **Claude.ai or ChatGPT projects.** Open the skill's `SKILL.md`, copy everything below the frontmatter, and paste it into your project's custom instructions. If a skill has a `references/` folder, upload those files to the project's knowledge too. The skills are disciplines, not dependencies, so they work in any capable chat.
 
 ## Changelog
+
+**2026-11-09**
+- **copy-grader** added as skill 04, with a default direct-response rubric and a LinkedIn thought-post rubric.
 
 **2026-11-02**
 - **taste-check** added as skill 03.
